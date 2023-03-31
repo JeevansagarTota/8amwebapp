@@ -1,0 +1,43 @@
+.menu{
+    text-align: right;
+    background: #e9ead9;
+    line-height: 40px;
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+}
+.mobile-menu{
+    width: 150px;
+    display: inline-block;
+    height: 200px;
+    text-align: left;
+    padding: 10px;
+    background: #e9ead9;
+    cursor: pointer;
+    line-height: 40px;
+    position: absolute;
+    top: 60px;
+    transition: left 1s;
+}
+.mobile-menu > a{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    display: block;
+}
+.menu > a{
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.mobile-menu-btn{
+    position: absolute;
+    right: 0;
+    width: 60px;
+    top: 60px;
+    cursor: pointer;
+}
+.menu-active{
+    color:red !important
+}
